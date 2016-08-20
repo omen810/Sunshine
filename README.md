@@ -1,3 +1,7 @@
+# 分支1：:1_listview_with_fake_data
+
+说明：listview显示数组中的静态天气预报数据
+
 ### 创建用户界面
 
 1. 新建Fragment：PlaceholderFragment
@@ -38,9 +42,9 @@
    </FrameLayout>
    ```
 
-# 将Sunshine连接到云端
+## 将Sunshine连接到云端
 
-## OpenWeather网站
+### OpenWeather网站
 
 网址：<http://openweathermap.org/>
 
