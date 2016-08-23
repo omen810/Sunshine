@@ -63,6 +63,11 @@ http://api.openweathermap.org/data/2.5/forecast/city?id=1799869&APPID=96e9322016
 获取7天天气情况的方法：
 http://api.openweathermap.org/data/2.5/forecast/daily?id=1799869&mode=json&units=metric&cnt=7&APPID=96e93220167db791d98f41de7dca2b00
 
+参数说明：
+
+For temperature in Fahrenheit use units=imperial  为华氏温度使用单位=帝国
+For temperature in Celsius use units=metric  为摄氏温度使用单位=公制
+
 ## 粘贴代码时，自动导入所需包文件
 
 -1 Android studio 只有import单个包的快捷键：Alt+Enter。没有Eclipse下的快速导入包的快捷键Ctrl+Shift+O。
@@ -97,4 +102,18 @@ Android studio --> File--> Settings --> Editor --> Auto Import:
 http://jingyan.baidu.com/article/47a29f24426063c014239931.html?st=2&net_type=&bd_page_type=1&os=0&rst=&word=menu
 
 ### 注意检查模拟器的网络是否处于开启状态
+
+# 分支3：3_parse_json_data
+
+说明：解析JSON数据，得到一个字符串数组（数组中包含7天天气预报数据），并在Logcat中显示
+
+## 在线解析JSON数据网站
+
+http://www.json.cn/
+
+## 关于时间的获取
+
+谷歌建议不用Time类，而是使用Calendar
+
+https://developer.android.com/reference/java/util/Calendar.html
 
