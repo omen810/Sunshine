@@ -88,6 +88,8 @@ Android studio --> File--> Settings --> Editor --> Auto Import:
     Exclude from Import and Completion：这个其实就是你自定义import。可以不用关注，一般来说你是用不上的。
 # 分支2：2_get_forecast_data
 
+说明：从网络上获取天气预报数据字符串，并在Logcat中显示
+
 ## 菜单按钮
 
 ### 图解Android Studio下创建menu布局文件
