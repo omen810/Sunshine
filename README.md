@@ -105,7 +105,7 @@ http://jingyan.baidu.com/article/47a29f24426063c014239931.html?st=2&net_type=&bd
 
 # 分支3：3_parse_json_data
 
-说明：解析JSON数据，得到一个字符串数组（数组中包含7天天气预报数据），并在Logcat中显示
+说明：解析JSON数据，得到一个字符串数组（数组中包含7天天气预报数据），在Logcat中显示，并更新到ListView中
 
 ## 在线解析JSON数据网站
 
